@@ -1,0 +1,19 @@
+{
+  "name": "EmberTestApp",
+  "version": "0.0.0",
+  "authors": [
+    "Zhomart Mukhamejanov <mzhomart@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "moment": "2.7.0",
+    "showdown": "0.3.1"
+  }
+}
