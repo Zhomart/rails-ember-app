@@ -1,0 +1,11 @@
+  {{#if is_editing}}
+    {{partial 'post/edit'}}
+    Edit Mode
+    <button {{action 'toggle_editing'}} class="btn btn-default">Done</button>
+  {{else}}
+    <button {{action 'toggle_editing'}} class="btn btn-default">Edit</button>
+  {{/if}}
+
+  <button {{action 'delete'}} class="btn btn-danger">Delete</button>
+
+  {{partial 'post/view'}}
